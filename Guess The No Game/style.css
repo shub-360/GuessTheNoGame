@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Compressed', sans-serif;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(251, 65, 65);
+  
+}
+/* HEading of Game */
+h1{
+    font-family: "Henny Penny" , serif;
+    font-size: 5rem;
+    font-weight: 500;
+    /* letter-spacing: 1px; */
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+/* ------Game Container ------*/
+
+/* Main container of the game Consits of hero section and score section */
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+    margin: 0 auto;
+    width: 80%;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Game Input Bar  */
+.input-bar{
+    background-color: rgb(255, 193, 69);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 320px;
+    height: 60px;
+    border-radius: 5px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    margin: 0 auto;
+       
+}
+/* Number Box Grid */
+
+.number-boxes-grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-gap: 2px;
+    width: 420px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.number-box{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(255, 213, 98);
+    color: white;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    -webkit-text-stroke: 0.5px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.number-box:hover{
+    background-color: rgb(255, 213, 98);
+    transform: scale(1.5);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.number-box:active{
+    transform: scale(1.2);
+    transition: 0.3s ease;
+    opacity: 0.5;
+}
+/* Right side section */
+
+.score-section{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    align-items: center;
+    margin-top: 50px;
+    row-gap: 20px;
+    
+}
+
+.hint-bar{
+    background-color: rgb(255, 193, 69);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 320px;
+    height: 60px;
+    border-radius: 5px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.you-guess-in{
+    background-color: rgb(255, 193, 69);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 320px;
+    height: 60px;
+    border-radius: 5px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.turn-track{
+    background-color: #5CB338;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 320px;
+    height: 60px;
+    border-radius: 5px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
