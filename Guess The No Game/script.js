@@ -23,7 +23,7 @@ const turnTrack = document.querySelector('.turn-track');// get the turn track
 
 // This function generate random no 
 const genCompChoice = () => {
-    return Math.floor(Math.random() * 100) + 1;//simple random number gnerated from 1 to 100  /// I have add +1 baz number is generated from 0 t0 99 so adding +1 will give 1 to 100 number
+    return Math.floor(Math.random() * 100) + 1;//simple random number gnerated from 1 to 100  /// I have add +1 bcz number is generated from 0 t0 99 so adding +1 will give 1 to 100 number
 }
 
 const compChoice = genCompChoice(); // store the random no in compChoice
