@@ -9,7 +9,7 @@ for ( let i = 2 ; i <= 100 ; i++){
     box.textContent = i;
     box.setAttribute('class', 'number-box');//create a class for every number
     box.innerHTML = i;
-    gridContainer.appendChild(box); // Append the box to the grid container
+    gridContainer.appendChild(box); // Append the box to the grid container // read notes of .appenChild
 }
 // **---- making number of boxes using loops ----**END
 // **----Making Game Logic----**
